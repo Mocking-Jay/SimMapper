@@ -1,0 +1,51 @@
+{
+  "name": "simmapper",
+  "version": "1.0.0",
+  "description": "A tool using DruidJS, which is a JavaScript library for dimensionality reduction.  With dimesionality reduction you can project high-dimensional data to a lower dimensionality while keeping method-specific properties of the data. DruidJS makes it easy to project a dataset with the implemented dimensionality reduction methods.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mj_massacre/simmapper.git"
+  },
+  "author": "Jihad Itani, Piotr Kupiec, Emanuel Moser, Martin Sackl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mj_massacre/simmapper/issues"
+  },
+  "homepage": "https://gitlab.com/mj_massacre/simmapper#readme",
+  "devDependencies": {
+    "@types/plotly.js": "^1.54.10",
+    "bubleify": "^2.0.0",
+    "electron": "^12.0.8",
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@saehrimnir/druidjs": "^0.3.12",
+    "@types/d3": "^6.6.0",
+    "array-normalize": "^2.0.0",
+    "browserify": "^17.0.0",
+    "d3": "^6.7.0",
+    "del": "^6.0.0",
+    "electron-settings": "^4.0.2",
+    "gulp-atom-electron": "^1.31.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-run-electron": "^3.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-vinyl-zip": "^2.2.1",
+    "latest": "^0.2.0",
+    "node": "^14.16.1",
+    "plotly.js": "^1.58.4",
+    "sweetalert2": "^11.0.16",
+    "tsify": "^5.0.4",
+    "typescript": "^4.2.4",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

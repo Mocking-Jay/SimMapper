@@ -18,7 +18,14 @@
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "dist"
   },
-  "exclude": [ "node_modules" ],
+  "include":[
+    "src/**/*"
+   ],
+    
+  "exclude": [
+    ".git",
+    "node_modules" 
+  ],
   "files":[
     "src/app.ts",
     "src/main.ts"

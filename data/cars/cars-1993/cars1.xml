@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<!DOCTYPE ggobidata SYSTEM "ggobi.dtd">
+
+<ggobidata count="1">
+<data name="newcars">
+<description>
+This is XML created by GGobi
+</description>
+<variables count="8">
+   <realvariable name="Type" nickname="Ty"/>
+   <realvariable name="Price" nickname="Pr"/>
+   <realvariable name="MPG.city" nickname="MP"/>
+   <realvariable name="Horsepower" nickname="Ho"/>
+   <realvariable name="RPM" nickname="RP"/>
+   <realvariable name="Length" nickname="Le"/>
+   <realvariable name="Width" nickname="Wi"/>
+   <realvariable name="Weight" nickname="We"/>
+</variables>
+<records count="93" glyph="fc 2" color="2">
+<record id="Acura Integra" label="Acura Integra" color="0">
+1 15.9 25 140 6300 177 68 2705
+</record>
+<record id="Acura Legend" label="Acura Legend">
+3 33.9 18 200 5500 195 71 3560
+</record>
+<record id="Audi 90" label="Audi 90" color="1">
+2 29.1 20 172 5500 180 67 3375
+</record>
+<record id="Audi 100" label="Audi 100">
+3 37.7 19 172 5500 193 70 3405
+</record>
+<record id="BMW 535i" label="BMW 535i">
+3 30 22 208 5700 186 69 3640
+</record>
+<record id="Buick Century" label="Buick Century">
+3 15.7 22 110 5200 189 69 2880
+</record>
+<record id="Buick LeSabre" label="Buick LeSabre" color="3">
+4 20.8 19 170 4800 200 74 3470
+</record>
+<record id="Buick Roadmaster" label="Buick Roadmaster" color="3">
+4 23.7 16 180 4000 216 78 4105
+</record>
+<record id="Buick Riviera" label="Buick Riviera">
+3 26.3 19 170 4800 198 73 3495
+</record>
+<record id="Cadillac DeVille" label="Cadillac DeVille" color="3">
+4 34.7 16 200 4100 206 73 3620
+</record>
+<record id="Cadillac Seville" label="Cadillac Seville">
+3 40.1 16 295 6000 204 74 3935
+</record>
+<record id="Chevrolet Cavalier" label="Chevrolet Cavalier" color="1">
+2 13.4 25 110 5200 182 66 2490
+</record>
+<record id="Chevrolet Corsica" label="Chevrolet Corsica" color="1">
+2 11.4 25 110 5200 184 68 2785
+</record>
+<record id="Chevrolet Camaro" label="Chevrolet Camaro" color="5">
+6 15.1 19 160 4600 193 74 3240
+</record>
+<record id="Chevrolet Lumina" label="Chevrolet Lumina">
+3 15.9 21 110 5200 198 71 3195
+</record>
+<record id="Chevrolet Lumina_APV" label="Chevrolet Lumina_APV" color="4">
+5 16.3 18 170 4800 178 74 3715
+</record>
+<record id="Chevrolet Astro" label="Chevrolet Astro" color="4">
+5 16.6 15 165 4000 194 78 4025
+</record>
+<record id="Chevrolet Caprice" label="Chevrolet Caprice" color="3">
+4 18.8 17 170 4200 214 77 3910
+</record>
+<record id="Chevrolet Corvette" label="Chevrolet Corvette" color="5">
+6 38 17 300 5000 179 74 3380
+</record>
+<record id="Chrylser Concorde" label="Chrylser Concorde" color="3">
+4 18.4 20 153 5300 203 74 3515
+</record>
+<record id="Chrysler LeBaron" label="Chrysler LeBaron" color="1">
+2 15.8 23 141 5000 183 68 3085
+</record>
+<record id="Chrysler Imperial" label="Chrysler Imperial" color="3">
+4 29.5 20 147 4800 203 69 3570
+</record>
+<record id="Dodge Colt" label="Dodge Colt" color="0">
+1 9.2 29 92 6000 174 66 2270
+</record>
+<record id="Dodge Shadow" label="Dodge Shadow" color="0">
+1 11.3 23 93 4800 172 67 2670
+</record>
+<record id="Dodge Spirit" label="Dodge Spirit" color="1">
+2 13.3 22 100 4800 181 68 2970
+</record>
+<record id="Dodge Caravan" label="Dodge Caravan" color="4">
+5 19 17 142 5000 175 72 3705
+</record>
+<record id="Dodge Dynasty" label="Dodge Dynasty">
+3 15.6 21 100 4800 192 69 3080
+</record>
+<record id="Dodge Stealth" label="Dodge Stealth" color="5">
+6 25.8 18 300 6000 180 72 3805
+</record>
+<record id="Eagle Summit" label="Eagle Summit" color="0">
+1 12.2 29 92 6000 174 66 2295
+</record>
+<record id="Eagle Vision" label="Eagle Vision" color="3">
+4 19.3 20 214 5800 202 74 3490
+</record>
+<record id="Ford Festiva" label="Ford Festiva" color="0">
+1 7.4 31 63 5000 141 63 1845
+</record>
+<record id="Ford Escort" label="Ford Escort" color="0">
+1 10.1 23 127 6500 171 67 2530
+</record>
+<record id="Ford Tempo" label="Ford Tempo" color="1">
+2 11.3 22 96 4200 177 68 2690
+</record>
+<record id="Ford Mustang" label="Ford Mustang" color="5">
+6 15.9 22 105 4600 180 68 2850
+</record>
+<record id="Ford Probe" label="Ford Probe" color="5">
+6 14 24 115 5500 179 70 2710
+</record>
+<record id="Ford Aerostar" label="Ford Aerostar" color="4">
+5 19.9 15 145 4800 176 72 3735
+</record>
+<record id="Ford Taurus" label="Ford Taurus">
+3 20.2 21 140 4800 192 71 3325
+</record>
+<record id="Ford Crown_Victoria" label="Ford Crown_Victoria" color="3">
+4 20.9 18 190 4200 212 78 3950
+</record>
+<record id="Geo Metro" label="Geo Metro" color="0">
+1 8.4 46 55 5700 151 63 1695
+</record>
+<record id="Geo Storm" label="Geo Storm" color="5">
+6 12.5 30 90 5400 164 67 2475
+</record>
+<record id="Honda Prelude" label="Honda Prelude" color="5">
+6 19.8 24 160 5800 175 70 2865
+</record>
+<record id="Honda Civic" label="Honda Civic" color="0">
+1 12.1 42 102 5900 173 67 2350
+</record>
+<record id="Honda Accord" label="Honda Accord" color="1">
+2 17.5 24 140 5600 185 67 3040
+</record>
+<record id="Hyundai Excel" label="Hyundai Excel" color="0">
+1 8 29 81 5500 168 63 2345
+</record>
+<record id="Hyundai Elantra" label="Hyundai Elantra" color="0">
+1 10 22 124 6000 172 66 2620
+</record>
+<record id="Hyundai Scoupe" label="Hyundai Scoupe" color="5">
+6 10 26 92 5550 166 64 2285
+</record>
+<record id="Hyundai Sonata" label="Hyundai Sonata">
+3 13.9 20 128 6000 184 69 2885
+</record>
+<record id="Infiniti Q45" label="Infiniti Q45">
+3 47.9 17 278 6000 200 72 4000
+</record>
+<record id="Lexus ES300" label="Lexus ES300">
+3 28 18 185 5200 188 70 3510
+</record>
+<record id="Lexus SC300" label="Lexus SC300">
+3 35.2 18 225 6000 191 71 3515
+</record>
+<record id="Lincoln Continental" label="Lincoln Continental">
+3 34.3 17 160 4400 205 73 3695
+</record>
+<record id="Lincoln Town_Car" label="Lincoln Town_Car" color="3">
+4 36.1 18 210 4600 219 77 4055
+</record>
+<record id="Mazda 323" label="Mazda 323" color="0">
+1 8.3 29 82 5000 164 66 2325
+</record>
+<record id="Mazda Protege" label="Mazda Protege" color="0">
+1 11.6 28 103 5500 172 66 2440
+</record>
+<record id="Mazda 626" label="Mazda 626" color="1">
+2 16.5 26 164 5600 184 69 2970
+</record>
+<record id="Mazda MPV" label="Mazda MPV" color="4">
+5 19.1 18 155 5000 190 72 3735
+</record>
+<record id="Mazda RX-7" label="Mazda RX-7" color="5">
+6 32.5 17 255 6500 169 69 2895
+</record>
+<record id="Mercedes-Benz 190E" label="Mercedes-Benz 190E" color="1">
+2 31.9 20 130 5100 175 67 2920
+</record>
+<record id="Mercedes-Benz 300E" label="Mercedes-Benz 300E">
+3 61.9 19 217 5500 187 69 3525
+</record>
+<record id="Mercury Capri" label="Mercury Capri" color="5">
+6 14.1 23 100 5750 166 65 2450
+</record>
+<record id="Mercury Cougar" label="Mercury Cougar">
+3 14.9 19 140 3800 199 73 3610
+</record>
+<record id="Mitsubishi Mirage" label="Mitsubishi Mirage" color="0">
+1 10.3 29 92 6000 172 67 2295
+</record>
+<record id="Mitsubishi Diamante" label="Mitsubishi Diamante">
+3 26.1 18 202 6000 190 70 3730
+</record>
+<record id="Nissan Sentra" label="Nissan Sentra" color="0">
+1 11.8 29 110 6000 170 66 2545
+</record>
+<record id="Nissan Altima" label="Nissan Altima" color="1">
+2 15.7 24 150 5600 181 67 3050
+</record>
+<record id="Nissan Quest" label="Nissan Quest" color="4">
+5 19.1 17 151 4800 190 74 4100
+</record>
+<record id="Nissan Maxima" label="Nissan Maxima">
+3 21.5 21 160 5200 188 69 3200
+</record>
+<record id="Oldsmobile Achieva" label="Oldsmobile Achieva" color="1">
+2 13.5 24 155 6000 188 67 2910
+</record>
+<record id="Oldsmobile Cutlass_Ciera" label="Oldsmobile Cutlass_Ciera">
+3 16.3 23 110 5200 190 70 2890
+</record>
+<record id="Oldsmobile Silhouette" label="Oldsmobile Silhouette" color="4">
+5 19.5 18 170 4800 194 74 3715
+</record>
+<record id="Oldsmobile Eighty-Eight" label="Oldsmobile Eighty-Eight" color="3">
+4 20.7 19 170 4800 201 74 3470
+</record>
+<record id="Plymouth Laser" label="Plymouth Laser" color="5">
+6 14.4 23 92 5000 173 67 2640
+</record>
+<record id="Pontiac LeMans" label="Pontiac LeMans" color="0">
+1 9 31 74 5600 177 66 2350
+</record>
+<record id="Pontiac Sunbird" label="Pontiac Sunbird" color="1">
+2 11.1 23 110 5200 181 66 2575
+</record>
+<record id="Pontiac Firebird" label="Pontiac Firebird" color="5">
+6 17.7 19 160 4600 196 75 3240
+</record>
+<record id="Pontiac Grand_Prix" label="Pontiac Grand_Prix">
+3 18.5 19 200 5000 195 72 3450
+</record>
+<record id="Pontiac Bonneville" label="Pontiac Bonneville" color="3">
+4 24.4 19 170 4800 177 74 3495
+</record>
+<record id="Saab 900" label="Saab 900" color="1">
+2 28.7 20 140 6000 184 67 2775
+</record>
+<record id="Saturn SL" label="Saturn SL" color="0">
+1 11.1 28 85 5000 176 68 2495
+</record>
+<record id="Subaru Justy" label="Subaru Justy" color="0">
+1 8.4 33 73 5600 146 60 2045
+</record>
+<record id="Subaru Loyale" label="Subaru Loyale" color="0">
+1 10.9 25 90 5200 175 65 2490
+</record>
+<record id="Subaru Legacy" label="Subaru Legacy" color="1">
+2 19.5 23 130 5600 179 67 3085
+</record>
+<record id="Suzuki Swift" label="Suzuki Swift" color="0">
+1 8.6 39 70 6000 161 63 1965
+</record>
+<record id="Toyota Tercel" label="Toyota Tercel" color="0">
+1 9.8 32 82 5200 162 65 2055
+</record>
+<record id="Toyota Celica" label="Toyota Celica" color="5">
+6 18.4 25 135 5400 174 69 2950
+</record>
+<record id="Toyota Camry" label="Toyota Camry">
+3 18.2 22 130 5400 188 70 3030
+</record>
+<record id="Toyota Previa" label="Toyota Previa" color="4">
+5 22.7 18 138 5000 187 71 3785
+</record>
+<record id="Volkswagen Fox" label="Volkswagen Fox" color="0">
+1 9.1 25 81 5500 163 63 2240
+</record>
+<record id="Volkswagen Eurovan" label="Volkswagen Eurovan" color="4">
+5 19.7 17 109 4500 187 72 3960
+</record>
+<record id="Volkswagen Passat" label="Volkswagen Passat" color="1">
+2 20 21 134 5800 180 67 2985
+</record>
+<record id="Volkswagen Corrado" label="Volkswagen Corrado" color="5">
+6 23.3 18 178 5800 159 66 2810
+</record>
+<record id="Volvo 240" label="Volvo 240" color="1">
+2 22.7 21 114 5400 190 67 2985
+</record>
+<record id="Volvo 850" label="Volvo 850">
+3 26.7 20 168 6200 184 69 3245
+</record>
+</records>
+</data>
+</ggobidata>

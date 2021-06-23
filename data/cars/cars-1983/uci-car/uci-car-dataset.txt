@@ -1,0 +1,6 @@
+
+http://archive.ics.uci.edu/ml/datasets/Auto+MPG
+CMU StatLib library
+
+The dataset was used in the 1983 American Statistical Association Exposition.
+

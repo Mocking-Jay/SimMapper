@@ -1,0 +1,23 @@
+
+
+Cars 1993 Dataset
+-----------------
+
+
+http://www.stat.ucl.ac.be/ISdidactique/Rhelp/library/DAAG/html/Cars93.summary.html
+
+http://cran.r-project.org/web/packages/MASS/MASS.pdf
+
+
+http://florence.acadiau.ca/collab/hugh_public/index.php?title=GGobi_Intro
+https://sites.google.com/site/hughchipman/hugh-s-files/cars1.xml
+
+
+
+
+
+Cars 1983 dataset:
+
+http://stat-computing.org/dataexpo/1983.html
+
+

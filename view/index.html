@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimMapper</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <img src="img/logo_transparent.png" width="70"/>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" id="dataset-nav">
+                Upload Dataset
+            </a>
+            <a class="navbar-item hider" id="svg-link">
+                Export SVG
+            </a>
+            <a class="navbar-item hider" id="toggle-dims">
+                Select Dimensions
+            </a>
+            <a class="navbar-item hider" id="marker-style">
+                Glyph Styling
+            </a>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item">
+                Help
+            </a>
+            <a id="about_act" class="navbar-item">
+                About
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="container sm-main-container">
+    <div class="notification is-vcentered" id="csv-upload-holder">
+        <div class="file is-centered is-boxed has-name">
+            <label class="file-label">
+                <input class="file-input" type="file" name="resume" id="csv_upload">
+                <span class="file-cta">
+                <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                    Open Dataset
+                </span>
+                </span>
+                <span class="file-name" id="file-name-upload">
+                    Open a dataset (like CSV)
+                </span>
+            </label>
+        </div>
+    </div>
+    <div class="notification hider">
+        <div id="data-display"></div>
+    </div>
+    <div class="notification hider is-invisible is-vcentered" id="vizcontainer">
+        <div class="columns">
+            <div class="column control">
+                <label class="label is-inline" for="viz_add">Multi-Visualization View</label>
+                <input type="checkbox" id="viz_add" name="viz_add"/>
+<!--                <button class="button is-success" id="add-viz-btn">ADD</button>-->
+            </div>
+            <div class="column control">
+                <label for="dim_method" class="label">Dimensionality Reduction Method</label>
+                <div class="select">
+                    <select id="dim_method" name="dim_method">
+                        <option value="PCA">PCA</option>
+<!--                        <option>UMAP</option>-->
+                        <option>TSNE</option>
+                        <option>TriMap</option>
+<!--                        <option>LLE</option>-->
+<!--                        <option>LTSA</option>-->
+<!--                        <option>ISOMAP</option>-->
+                        <option>FASTMAP</option>
+                        <option>MDS</option>
+                        <option>LSP</option>
+<!--                        <option>LDA</option>-->
+                        <option>TopoMap</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-multiline sm-viz-columns" id="data_viz"></div>
+    </div>
+</div>
+<div class="sm-loader" id="sm-loader">
+    <button class="button is-loading"></button>
+</div>
+<div class="control columns" id="dimensions_selector">
+
+</div>
+<!--  Bundle  -->
+<script src="../simmapper.js"></script>
+<script src="../data.js"></script>
+</body>
+</html>

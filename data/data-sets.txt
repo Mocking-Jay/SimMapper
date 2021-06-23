@@ -1,0 +1,14 @@
+
+MultiDim Datasets
+=================
+
+
+https://visdatasets.github.io/
+
+
+
+R Built-in Data Sets
+http://www.sthda.com/english/wiki/r-built-in-data-sets
+
+
+
